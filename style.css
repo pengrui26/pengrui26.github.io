@@ -1,0 +1,179 @@
+/* 全局样式 */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+.main-content {
+  display: flex;
+  align-items: flex-start; /* 保证内容顶部对齐 */
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.profile-photo {
+  width: 200px; /* 控制图片的宽度 */
+  height: auto;
+  border-radius: 8px; /* 圆角处理 */
+  margin-right: 100px; /* 与内容之间的间距 */
+}
+
+.about-content {
+  max-width: 800px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.experience-section {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.experience-entry {
+  margin-bottom: 40px;
+}
+
+.experience-entry h2 {
+  color: #2c3e50;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.experience-entry p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+ul {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+ul li {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.project-section {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.project-entry {
+  margin-bottom: 40px;
+}
+
+.project-entry h2 {
+  color: #2c3e50;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project-entry p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.assignment-section {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.assignment-entry {
+  margin: 20px;
+  margin-bottom: 40px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(10, 10, 10, 0.1);
+}
+
+.assignment-entry:hover {
+  margin: 20px;
+  margin-bottom: 40px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px grey;
+}
+
+.assignment-entry h2 {
+  color: #2c3e50;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.assignment-entry p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.github-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.github-link:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
